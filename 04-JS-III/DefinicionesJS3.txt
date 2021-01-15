@@ -1,0 +1,2 @@
+Array: Es una colección de tipos de datos. Es una matriz que funciona como contenedor de varios tipos de datos, ya sean cadenas de texto(string), números, booleanos, incluso otras matrices.
+Para contruir una matriz, simplemente hay que declarar una variable y poner [], despues podemos agregar dentro de estos corchetes los datos que queramos, separando unos de otros con coma ",".

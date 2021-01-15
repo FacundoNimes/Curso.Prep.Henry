@@ -1,0 +1,11 @@
+for: Los bucles for tienen una sintaxis única, similar a la instrucción if, pero mas compleja. Primero tenemos la palabra clave for, seguida de paréntesis() y luego llaves{}. Dentro de los paréntesis necesitamos 3 cosas.
+Primero, debemos declarar una variable, esto es sobre lo que se repetirá el bucle.
+Segundo, tendremos una expresión condicional, el ciclo continuará sucediendo hasta que esta declaración sea false.
+Tercero, incrementamos nuestra variable.
+Estas 3 declaraciones están separadas por punto y coma ";". Ej: for(var i = 0; i < 10; i++){}.
+
+&&: Operador lógico and o "y". Evaluará dos expresiones y devolverá verdadero si ambas son true, o false si al menos una es false.
+
+||: Operador lógico or o "o". A diferencia de &&, este evaluará si al menos una de las expresiones es verdadera y devolverá true, y devolverá false si ambas son falsas.
+
+!: valor booleando de negación, transformará cualquier variable a un valor booleano y le dara su valor contrario.

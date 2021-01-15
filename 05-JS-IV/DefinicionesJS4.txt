@@ -1,0 +1,47 @@
+-Objetos:Los objetos son similares a la matrices en ciertas cosas y distintos en otras. Mientras que los arrays pueden contener múltiples elementos relacionados unos con otros, los objetos contienen mucha información de una sola cosa.
+Los objetos se instancian usando llaves {}.
+Adiferencia de las matrices o arrays que tienen elementos valorados en índices, los obejtos usan un concepto llamado pares de clave:valor. La clave es el identificador y el valor, es el valor que queremos guardar en esa clave.
+Los objetos pueden contener muchos pares de clave:valor, estos deben estar separados por coma ",".
+Las claves son únicas dentro de un objeto, los valores pueden repetirse.
+
+
+-Propiedades: Si queremos eliminar una propiedad de un objeto (clave:valor), es usando la palabra clave delete, seguida del objeto.propiedad:
+
+const nuevoObjeto = {
+    eliminarEstaPropiedad: true
+};
+
+delete nuevoObjeto.eliminarEstaPropiedad;
+
+-Métodos: En los objetos, los valores se pueden establecer en funciones. Las funciones guardadas en un objeto se denominan métodos. Podemos establecer una clave para un nombre y el valor para una función. Al igual que otras veces que llamamos métodos, llamaremos a este método usando notación de puntos y paréntesis finales
+
+const nuevoObjeto = {
+    decirHola: function() {
+        console.log('Hola a todo el mundo!');
+    }
+}
+
+nuevoObjeto.decirHola(); //Hola a todo el mundo!
+
+Se estableció decirHola como método y se utilizó llamando al objeto.metodo
+
+-Bucle for…in: Como los objetos no contienen índices numéricos como los arrays, no podemos utilizar un bucle for estandar para iterar cada par clave:valor.
+Para esto, Javascript tiene un segundo tipo de bucle for integrado llamado "for...in loop". Es una sintaxis ligeramente diferente, comienza igual pero entre paréntesis declaramos una variable, la palabra clave in y el nombre del objeto. Esto recorrerá cada clave:valor del objeto y finalizará cuando se haya iterado todas las claves. Ej:
+
+const usuario = {
+    username: 'juan.perez',
+    password: 'loremipsumpwd123',
+    lovesJavascript: true,
+    favoriteNumber: 42
+};
+
+for (let clave in usuario){
+    console.log(clave);
+    console.log(usuario[clave]);
+}
+
+-Notación de puntos vs notación de corchetes:
+
+objeto.clave
+
+objeto["clave"]

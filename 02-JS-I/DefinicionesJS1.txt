@@ -1,0 +1,14 @@
+Variables: una variable es una forma de almacenar el valor de algo para usar más adelante.
+Para crear una variable utilizamos la palabra clave var seguida de =, y despues de esto asignamos el valor de la variable.
+
+Strings: las strings son bloques de texto, siempre se definiran entre comillas simples o dobles. Ej: var nombre = "Hellendil";
+
+Funciones (argumentos, return): Las funciones son objetos invocables que poseen cualidades. Ej: function miFuncion(){};
+
+Los argumentos: se agrega una variable dentro de los () de la función, para despues poder usar esa variable dentro de la función {}. Si queremos agregar mas argumentos (variables dentro de los paréntesis de la función), sólo tenemos que separar cada argumento con una ",".
+
+Return: es la única forma en la que podemos devolver datos fuera de una función, esto con console.log no se podría hacer por algo que se llama Scope(alcance).
+
+Declaraciones if: Es un bucle que se utiliza para controlar el flujo del código, es para que nuestra función verifique si algo es true o false, y a partir del valor que sea, realizará una acción u otra.
+
+Valores booleanos (true, false): Singnifica que es un valor de sólo dos opciones, verdadero o falso. Ej: var quieroJugarLol = true;

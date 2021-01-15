@@ -1,0 +1,16 @@
+-Funciones Callback: Un concepto muy importante en JS es la capacidad de pasar una función como argumento a otra función. Estas funciones pueden llamarse en cualquier momento y pasar argumentos dentro de la función. Ej:
+
+function decirHolaAlUsuario(usuario) {
+    return 'Hola ' + usuario + '!';
+}
+
+function decirAdiosAlUsuario(usuario) {
+    return 'Adiós ' + usuario + '!';
+}
+
+function crearSaludo(usuario, cb) {
+    return cb(usuario);
+}
+
+crearSaludo('Dan', decirHolaAlUsuario); // 'Hello Dan!'
+crearSaludo('Dan', decirAdiosAlUsuario); // 'Goodbye Dan!'

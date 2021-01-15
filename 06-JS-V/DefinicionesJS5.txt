@@ -1,0 +1,9 @@
+-prototype: La creación de funciones es costosa respecto a memoria, cada vez que creamos un nuevo objeto de clase con 
+métodos, esos métodos se crean en la memoria. Las clases tienen una forma única de establecer un método una vez y dar 
+acceso a cada objeto de esa clase a esos métodos. Esto se llama prototype. Cada clase tiene una propiedad prototype, 
+que luego podemos establecer en métodos.
+Estos métodos de prototype tienen acceso a la palabra clave this y al igual que antes, siempre apuntará al objeto.
+
+-Constructors (de Clases): Constructor o class. Las clases comparten gran parte de la misma funcionalidad que los objetos 
+normales, pero también se expande mucho esa funcionalidad. Las clases son útiles para crear muchos objetos que comparten 
+algunas de las mismas propiedades y métodos (como los usuarios en un sitio web).
